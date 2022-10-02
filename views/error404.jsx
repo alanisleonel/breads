@@ -1,12 +1,12 @@
 const React = require('react')
 const Default = require('./layouts/Default')
 
-function 404 () {
+function error404 () {
     return (
         <Default>
-            <h1>404 playa</h1>
+            <h1>404</h1>
         </Default>
     )
 }
 
-module.exports = 404
+module.exports = error404
